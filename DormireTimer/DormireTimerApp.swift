@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
 
 @main
 struct DormireTimerApp: App {
+    init() {
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(TimerVm())
+                .environmentObject(AlarmVm())
         }
     }
 }

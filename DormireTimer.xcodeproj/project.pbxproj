@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B60D32830384C5B496288A /* Pods_DormireTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA6D3F45448CDB41ACECE99 /* Pods_DormireTimer.framework */; };
+		EC1749BC29781B910065E692 /* Selima .otf in Resources */ = {isa = PBXBuildFile; fileRef = EC1749BB29781B910065E692 /* Selima .otf */; };
+		EC25065229548DAB00DD4277 /* AlarmVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC25065129548DAB00DD4277 /* AlarmVm.swift */; };
 		EC4D3847293B21DD00024651 /* DormireTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D3846293B21DD00024651 /* DormireTimerApp.swift */; };
 		EC4D3849293B21DD00024651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D3848293B21DD00024651 /* ContentView.swift */; };
 		EC4D384B293B21E000024651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D384A293B21E000024651 /* Assets.xcassets */; };
 		EC4D384E293B21E000024651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D384D293B21E000024651 /* Preview Assets.xcassets */; };
+		EC5BF15C29654CC000A4FF8B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5BF15B29654CC000A4FF8B /* SoundPlayer.swift */; };
+		EC7AC72F293B25B3006B78F9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC72E293B25B3006B78F9 /* Home.swift */; };
+		EC7AC732293B26F5006B78F9 /* TimerVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC731293B26F5006B78F9 /* TimerVm.swift */; };
+		EC7AC734293B331D006B78F9 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC733293B331D006B78F9 /* SleepView.swift */; };
+		EC7AC737293B44A0006B78F9 /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC736293B44A0006B78F9 /* WaitView.swift */; };
+		ECA1D7CD29A358FE002AC5C6 /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1D7CC29A358FE002AC5C6 /* BannerAd.swift */; };
+		ECA44012294B79DC00C958FF /* Home.Vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA44011294B79DC00C958FF /* Home.Vm.swift */; };
+		ECDC9C07297A6CBC00051891 /* ExplainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDC9C06297A6CBC00051891 /* ExplainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A97862C8CCF156CBD22F852D /* Pods-DormireTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormireTimer.release.xcconfig"; path = "Target Support Files/Pods-DormireTimer/Pods-DormireTimer.release.xcconfig"; sourceTree = "<group>"; };
+		B59468A0D5BD6854A4D406A3 /* Pods-DormireTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormireTimer.debug.xcconfig"; path = "Target Support Files/Pods-DormireTimer/Pods-DormireTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA6D3F45448CDB41ACECE99 /* Pods_DormireTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DormireTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1749B8297819850065E692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC1749BB29781B910065E692 /* Selima .otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Selima .otf"; sourceTree = "<group>"; };
+		EC25065129548DAB00DD4277 /* AlarmVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVm.swift; sourceTree = "<group>"; };
 		EC4D3843293B21DD00024651 /* DormireTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DormireTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4D3846293B21DD00024651 /* DormireTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormireTimerApp.swift; sourceTree = "<group>"; };
 		EC4D3848293B21DD00024651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC4D384A293B21E000024651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC4D384D293B21E000024651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5BF15B29654CC000A4FF8B /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		EC7AC72E293B25B3006B78F9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EC7AC731293B26F5006B78F9 /* TimerVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVm.swift; sourceTree = "<group>"; };
+		EC7AC733293B331D006B78F9 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		EC7AC736293B44A0006B78F9 /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
+		ECA1D7CC29A358FE002AC5C6 /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		ECA44011294B79DC00C958FF /* Home.Vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.Vm.swift; sourceTree = "<group>"; };
+		ECDC9C06297A6CBC00051891 /* ExplainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B60D32830384C5B496288A /* Pods_DormireTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65A1F40A39E387679CBB035D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6D3F45448CDB41ACECE99 /* Pods_DormireTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB45209C928250BE994C8D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B59468A0D5BD6854A4D406A3 /* Pods-DormireTimer.debug.xcconfig */,
+				A97862C8CCF156CBD22F852D /* Pods-DormireTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC4D383A293B21DD00024651 = {
 			isa = PBXGroup;
 			children = (
 				EC4D3845293B21DD00024651 /* DormireTimer */,
 				EC4D3844293B21DD00024651 /* Products */,
+				7BB45209C928250BE994C8D4 /* Pods */,
+				65A1F40A39E387679CBB035D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +96,14 @@
 		EC4D3845293B21DD00024651 /* DormireTimer */ = {
 			isa = PBXGroup;
 			children = (
+				EC1749B8297819850065E692 /* Info.plist */,
 				EC4D3846293B21DD00024651 /* DormireTimerApp.swift */,
 				EC4D3848293B21DD00024651 /* ContentView.swift */,
+				ECA1D7CC29A358FE002AC5C6 /* BannerAd.swift */,
+				EC7AC72D293B25A2006B78F9 /* View */,
+				EC7AC730293B26BF006B78F9 /* Vm */,
 				EC4D384A293B21E000024651 /* Assets.xcassets */,
+				EC1749BB29781B910065E692 /* Selima .otf */,
 				EC4D384C293B21E000024651 /* Preview Content */,
 			);
 			path = DormireTimer;
@@ -67,6 +117,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EC7AC72D293B25A2006B78F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC7AC72E293B25B3006B78F9 /* Home.swift */,
+				EC7AC733293B331D006B78F9 /* SleepView.swift */,
+				EC7AC736293B44A0006B78F9 /* WaitView.swift */,
+				EC25065129548DAB00DD4277 /* AlarmVm.swift */,
+				ECDC9C06297A6CBC00051891 /* ExplainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC7AC730293B26BF006B78F9 /* Vm */ = {
+			isa = PBXGroup;
+			children = (
+				EC7AC731293B26F5006B78F9 /* TimerVm.swift */,
+				ECA44011294B79DC00C958FF /* Home.Vm.swift */,
+				EC5BF15B29654CC000A4FF8B /* SoundPlayer.swift */,
+			);
+			path = Vm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC4D3851293B21E000024651 /* Build configuration list for PBXNativeTarget "DormireTimer" */;
 			buildPhases = (
+				AC552CC61C8985307CB3BCCE /* [CP] Check Pods Manifest.lock */,
 				EC4D383F293B21DD00024651 /* Sources */,
 				EC4D3840293B21DD00024651 /* Frameworks */,
 				EC4D3841293B21DD00024651 /* Resources */,
+				12CFA0EDAB04516C8C32CB66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1749BC29781B910065E692 /* Selima .otf in Resources */,
 				EC4D384E293B21E000024651 /* Preview Assets.xcassets in Resources */,
 				EC4D384B293B21E000024651 /* Assets.xcassets in Resources */,
 			);
@@ -132,12 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12CFA0EDAB04516C8C32CB66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DormireTimer/Pods-DormireTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DormireTimer/Pods-DormireTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DormireTimer/Pods-DormireTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC552CC61C8985307CB3BCCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DormireTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC4D383F293B21DD00024651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC25065229548DAB00DD4277 /* AlarmVm.swift in Sources */,
+				EC7AC732293B26F5006B78F9 /* TimerVm.swift in Sources */,
+				EC7AC737293B44A0006B78F9 /* WaitView.swift in Sources */,
 				EC4D3849293B21DD00024651 /* ContentView.swift in Sources */,
+				EC5BF15C29654CC000A4FF8B /* SoundPlayer.swift in Sources */,
+				ECA44012294B79DC00C958FF /* Home.Vm.swift in Sources */,
+				ECA1D7CD29A358FE002AC5C6 /* BannerAd.swift in Sources */,
+				ECDC9C07297A6CBC00051891 /* ExplainView.swift in Sources */,
+				EC7AC72F293B25B3006B78F9 /* Home.swift in Sources */,
+				EC7AC734293B331D006B78F9 /* SleepView.swift in Sources */,
 				EC4D3847293B21DD00024651 /* DormireTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +387,7 @@
 		};
 		EC4D3852293B21E000024651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59468A0D5BD6854A4D406A3 /* Pods-DormireTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,16 +397,18 @@
 				DEVELOPMENT_TEAM = VN2PML7NUH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DormireTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kojikoji7765.DormireTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -290,6 +419,7 @@
 		};
 		EC4D3853293B21E000024651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97862C8CCF156CBD22F852D /* Pods-DormireTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,16 +429,18 @@
 				DEVELOPMENT_TEAM = VN2PML7NUH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DormireTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kojikoji7765.DormireTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
